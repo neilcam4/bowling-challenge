@@ -1,11 +1,20 @@
 describe('Bowling ScoreCard', function(){
-  it('rolls 1 and 2 from round 1 do not exceed 10 points', function(){
-let roll1 = {score:3};
-let roll2 = {score:5};
-var total = roll1['score'] + roll2['score']
-    expect(total).toBeLessThan(11)
+  it('returns current score of 0 when new card made', function(){
+  var card = new BowlingCard();
+  expect(card.total).toEqual(0)
   })
-  it('returns the value user input for roll 1', function(){
+  it('adds together rolls from Frame 1 when button is pushed', function(){
+    card = new BowlingCard();
+    var pins1 =3;
+    var pins2 = 4;
+    
 
+    card.frameTotal(pins1, pins2)
+    expect(card.frameScore).toEqual(7)
   })
+  // it('fetches score entered by user in roll1', function(){
+  //   card = new BowlingCard();
+  //   expect(card.roll1()).toEqual()
+  //
+  // })
 })

@@ -1,0 +1,45 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:50%;
+}
+
+td, th {
+  border: 1px solid #007069;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #007069;
+}
+#calculateScore1{
+  visibility:visible;
+}
+#calculateScore2{
+  visibility:hidden
+}
+#calculateScore3{
+  visibility:hidden
+}
+#calculateScore4{
+  visibility:hidden
+}
+#calculateScore5{
+  visibility:hidden
+}
+#calculateScore6{
+  visibility:hidden
+}
+#calculateScore7{
+  visibility:hidden
+}
+#calculateScore8{
+  visibility:hidden
+}
+#calculateScore9{
+  visibility:hidden
+}
+#calculateScore10{
+  visibility:hidden
+}
